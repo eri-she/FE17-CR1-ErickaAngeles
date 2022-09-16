@@ -2,6 +2,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  padding: 15px;
 }
 nav ul a {
   text-decoration: none;
@@ -10,4 +11,23 @@ nav ul a {
 nav ul a:hover {
   color: black;
   font-weight: bold;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+}
+.header .logo {
+  font-size: 40px;
+  font-family: cursive;
+}
+.header .search {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
