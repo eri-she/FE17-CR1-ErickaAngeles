@@ -67,11 +67,31 @@ nav ul a:hover {
 .container .text {
   background-color: rgba(0, 0, 0, 0.344);
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding-top: 30px;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+footer {
+  background-color: black;
+  padding: 30px 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 20px;
+}
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+footer ul a:hover {
+  color: orange;
+  font-weight: bold;
 }
 
 * {
