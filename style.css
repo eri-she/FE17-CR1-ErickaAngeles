@@ -109,6 +109,36 @@ footer ul a:hover {
   font-weight: bold;
 }
 
+.container-cake {
+  margin: 10px 40px;
+}
+.container-cake h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container-cake .cake {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container-cake img {
+  width: 100%;
+}
+.container-cake h3 {
+  text-align: center;
+}
+.container-cake ul {
+  color: gray;
+  text-align: center;
+  list-style: none;
+  margin: 10px auto;
+}
+.container-cake ul li {
+  color: gray;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.407);
+}
+
 * {
   margin: 0;
   padding: 0;
