@@ -32,15 +32,35 @@ nav ul a:hover {
   grid-template-columns: auto auto auto;
   grid-template-rows: 1fr 1fr;
   gap: 4px;
-  margin: 20px 30px;
+  margin: 20px 40px;
   gap: 15px;
 }
-.container .image-o {
+.container .one {
+  background-image: url("images/olive.jpeg");
+}
+.container .two,
+.container .seven {
   background-image: url("images/breakfast.jpeg");
+}
+.container .three,
+.container .eight {
+  background-image: url("images/hamburger.jpeg");
+}
+.container .four,
+.container .nine {
+  background-image: url("images/salad.jpeg");
+}
+.container .five {
+  background-image: url("images/fries.jpeg");
+}
+.container .six {
+  background-image: url("images/pizza.jpeg");
+}
+.container .image {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 250px;
+  height: 200px;
   width: 100%;
   position: relative;
 }
@@ -48,6 +68,7 @@ nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.344);
   color: white;
   text-align: center;
+  padding-top: 30px;
   position: absolute;
   bottom: 0;
   width: 100%;
