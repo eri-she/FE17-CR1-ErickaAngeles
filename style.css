@@ -34,9 +34,14 @@ nav .recipe a:hover {
   padding: 30px 20px;
   flex-wrap: wrap;
 }
-.header .logo {
+.header .logo a {
   font-size: 2rem;
   font-family: cursive;
+  text-decoration: none;
+  color: black;
+}
+.header .logo a:hover {
+  color: gray;
 }
 .header .search {
   font-family: Arial, Helvetica, sans-serif;

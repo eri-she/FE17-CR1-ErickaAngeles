@@ -4,9 +4,14 @@
   align-items: center;
   padding: 30px 20px;
   flex-wrap: wrap;
-  .logo {
+  .logo a {
     font-size: 2rem;
     font-family: cursive;
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color: gray;
+    }
   }
   .search {
     font-family: Arial, Helvetica, sans-serif;
