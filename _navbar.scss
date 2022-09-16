@@ -1,0 +1,15 @@
+nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: gray;
+      &:hover {
+        color: black;
+        font-weight: bold;
+      }
+    }
+  }
+}
