@@ -1,13 +1,27 @@
 .container {
-  //   display: grid;
-  //   grid-template-columns: auto auto auto;
-  //   gap: 4px;
-  //   margin: 20px 30px;
-  //   gap: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px;
+  margin: 20px 30px;
+  gap: 15px;
 
   .image-o {
-    background-image: url("images/hamburger.jpeg");
+    background-image: url("images/breakfast.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
     width: 100%;
-    height: 100%;
+    position: relative;
+  }
+  .text {
+    background-color: rgba(0, 0, 0, 0.344);
+    color: white;
+    text-align: center;
+    position: absolute;
+
+    bottom: 0;
+    width: 100%;
   }
 }
