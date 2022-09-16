@@ -3,9 +3,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
-
+  flex-wrap: wrap;
   .logo {
-    font-size: 40px;
+    font-size: 2rem;
     font-family: cursive;
   }
   .search {

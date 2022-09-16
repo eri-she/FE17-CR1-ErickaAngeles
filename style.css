@@ -13,18 +13,17 @@ nav ul a:hover {
   font-weight: bold;
 }
 nav .recipe {
-  background-color: green;
+  background-color: rgba(1, 67, 1, 0.501);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
 }
 nav .recipe a {
-  color: white;
+  color: black;
   text-decoration: none;
-  transition: color 1s ease-in-out;
 }
 nav .recipe a:hover {
-  color: black;
+  color: orange;
   font-weight: bold;
 }
 
@@ -33,9 +32,10 @@ nav .recipe a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 30px 20px;
+  flex-wrap: wrap;
 }
 .header .logo {
-  font-size: 40px;
+  font-size: 2rem;
   font-family: cursive;
 }
 .header .search {
@@ -45,7 +45,6 @@ nav .recipe a:hover {
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 1fr 1fr;
   gap: 4px;
   margin: 20px 40px;
   gap: 15px;
@@ -139,6 +138,17 @@ footer ul a:hover {
   border-bottom: 1px solid rgba(128, 128, 128, 0.407);
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .salad,
+.burger,
+.breakfast {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
