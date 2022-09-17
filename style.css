@@ -115,7 +115,10 @@ footer ul a:hover {
 }
 
 .container-cake {
-  margin: 10px 40px;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 10px 20px 10px;
+  background-color: rgba(245, 245, 220, 0.625);
 }
 .container-cake h1 {
   text-align: center;
@@ -129,6 +132,7 @@ footer ul a:hover {
 }
 .container-cake img {
   width: 100%;
+  border-radius: 50% 50% 0 0;
 }
 .container-cake h3 {
   text-align: center;
@@ -143,15 +147,11 @@ footer ul a:hover {
   color: gray;
   border-bottom: 1px solid rgba(128, 128, 128, 0.407);
 }
+.container-cake p {
+  margin-top: 30px;
+}
 
-.container-about {
-  margin: 10px 40px;
-}
-.container-about h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.container-about .chef {
+.container-cake .chef img {
   display: block;
   margin-left: auto;
   margin-right: auto;

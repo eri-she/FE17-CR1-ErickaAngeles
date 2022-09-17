@@ -1,5 +1,10 @@
 .container-cake {
-  margin: 10px 40px;
+  margin: 0 auto;
+  width: 80%;
+
+  padding: 20px 10px 20px 10px;
+
+  background-color: rgba(245, 245, 220, 0.625);
 
   h1 {
     text-align: center;
@@ -11,8 +16,10 @@
     margin-right: auto;
     width: 50%;
   }
+
   img {
     width: 100%;
+    border-radius: 50% 50% 0 0;
   }
   h3 {
     text-align: center;
@@ -26,5 +33,8 @@
       color: gray;
       border-bottom: 1px solid rgba(128, 128, 128, 0.407);
     }
+  }
+  p {
+    margin-top: 30px;
   }
 }
